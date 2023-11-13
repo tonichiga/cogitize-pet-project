@@ -1,0 +1,20 @@
+.header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  // background-color: teal;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  // background-color: blue;
+  margin: 0 auto;
+}
+
+.test_container {
+  background-color: brown;
+  height: 100%;
+}

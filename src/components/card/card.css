@@ -1,0 +1,10 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 400px;
+  width: 100%;
+  background-color: cadetblue;
+  padding: 24px;
+  box-sizing: border-box;
+}
