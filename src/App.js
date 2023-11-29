@@ -3,34 +3,34 @@ import "./App.css";
 import Header from "./components/header/Header";
 import DefaultInput from "./components/inputs/default-input";
 import svgMaker from "./svg-maker";
-
+import "./lessons/lesson-1";
 // const hello = "world";
 
-const sum = (a, b) => {
-  return a + b;
-};
+// const sum = (a, b) => {
+//   return a + b;
+// };
 
-// const result = sum(4, 6);
+// // const result = sum(4, 6);
 
-function testFunction() {
-  const arr = [1, 2, 3];
+// function testFunction() {
+//   const arr = [1, 2, 3];
 
-  arr.forEach((el) => el);
+//   arr.forEach((el) => el);
 
-  for (let i of arr) {
-    console.log(i);
-  }
-}
+//   for (let i of arr) {
+//     console.log(i);
+//   }
+// }
 
-testFunction();
+// testFunction();
 
 const list = [1, 2, 3, 4, 5, 6, 7, 8];
 
-const setCity = (city, street) => {
-  return `My city is ${city}`;
-};
+// const setCity = (city, street) => {
+//   return `My city is ${city}`;
+// };
 
-const result = setCity("Kiev", "Klovskiy");
+// const result = setCity("Kiev", "Klovskiy");
 
 const App = () => {
   const [name, setName] = useState("flower");
@@ -39,10 +39,6 @@ const App = () => {
     const value = event.target.value;
     setName(value);
   };
-
-  useEffect(() => {
-    console.log("Наше значение инпута :", name);
-  }, [name]);
 
   return (
     <div className="app">
